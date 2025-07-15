@@ -1,2 +1,2 @@
-# CSV-to-JSON
-Python script that converts all `.csv` files in a specified input folder into `.json` format and stores the output in a separate folder.
+# files-to-JSON
+Python scripts that can convert Excel or CSV files into JSON
