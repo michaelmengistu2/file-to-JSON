@@ -21,7 +21,7 @@ def convert_all_csv_to_json(input_dir, output_dir):
             with open(json_path, mode='w', encoding='utf-8') as json_file:
                 json.dump(data, json_file, indent=4)
 
-            print(f"✅ Converted: {filename} → {json_filename}")
+            print(f"Converted: {filename} → {json_filename}")
 
 # Example usage (can be customized in a separate runner script)
 if __name__ == "__main__":
